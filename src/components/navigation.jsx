@@ -10,6 +10,9 @@ export default props => {
         <NavLink to={{pathname:props.link1Route}}>
           {props.link1} 
         </NavLink>
+        <NavLink to={{pathname:props.link2Route}}>
+          {props.link2} 
+        </NavLink>
       </Typography>
     </Box>
   )

@@ -10,7 +10,7 @@ class Main extends Component {
     return (
       <main className="main">
         <Container maxWidth="lg">
-          <h1>Feast your eyes on the Android games with the best graphics</h1>
+        <h1>{ this.props.mainTitle[0].text }</h1>
           <Grid container spacing={3}>
             <Grid item md={8}>
               { this.props.articles.map((article, index) => {

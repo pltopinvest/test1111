@@ -7,7 +7,6 @@ import Summary from './summary-en.png';
 import '../layouts/layouts.css';
 
 export default props => {
-  console.log(props)
   return (
     <div className="guide">
       <Container maxWidth="lg">

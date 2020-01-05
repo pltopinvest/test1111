@@ -3,7 +3,7 @@
   background: #061d2d;
   position: relative;
   z-index: 100;
-  height: 44px;
+  padding: 10px 0;
 }
 
 .header a, .footer a {
@@ -12,12 +12,26 @@
   transition: color ease-in .2s;
 }
 
+.header a.active {
+  color:#bb162b!important;
+}
+
+.footer a.active {
+  color:#000!important;
+}
+
 .header a:hover, .footer a:hover {
   color: #e7e7e7;
 } 
 
 .logo {
   font-size: 20px;
+  position: relative;
+  top: 3px;
+}
+
+.MuiTypography-body1.MuiTypography-root {
+  margin-top: 5px;
 }
 
 .MuiTypography-root a{
@@ -26,7 +40,7 @@
 }
 
 .footer {
-  padding: 20px 0;
+  padding: 10px 0;
   background-image: linear-gradient(90deg,#003c8f,#bb162b);
   position: relative;
 }
@@ -106,4 +120,14 @@ h3 {
 
 .likesImg {
   max-width: 150px;
+}
+
+.btn-submit {
+  width: 150px;
+  margin: 20px auto!important;
+}
+
+.contact-section {
+  padding-bottom: 50px;
+  min-height: 50vh;
 }

@@ -6,7 +6,7 @@ body {
 
 .header .MuiLink-root, .footer .MuiLink-root {
   color: #fff;
-  padding: 15px;
+  padding: 25px 0 0;
   transition: ease .3s color;
 }
 
@@ -25,7 +25,7 @@ h2, h3, h4, h5 {
   z-index: 200;
   left: 50%;
   transform: translateX(-50%);
-  top: 10px;
+  top: 25px;
   margin: 0;
   padding: 0;
   color: #fff;
